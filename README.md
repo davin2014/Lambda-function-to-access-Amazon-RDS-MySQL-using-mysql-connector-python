@@ -16,6 +16,9 @@ cd ~/lambda_layers
 sudo apt install zip
 zip -r mysql_lambda_layer.zip *
 
+
 sudo apt install awscli
+
 aws configure
+
 aws s3 cp  mysql_lambda_layer.zip s3://{}/
